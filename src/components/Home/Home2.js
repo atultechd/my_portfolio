@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="cyan"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I like programming and I am currently learning
+              I am passionate about programming and currently dedicated to elevating my proficiency in
               <i>
                 <b className="cyan"> Ruby on Rails. </b>
               </i>
@@ -37,7 +37,10 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="cyan">React.js</b> 
+              with <b className="cyan">React.js.</b> 
+              <br/>
+              I do like to work on React.Js if there is something interesting to create.
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">

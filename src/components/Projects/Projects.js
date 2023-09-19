@@ -7,6 +7,7 @@ import connect from "../../Assets/Projects/connect.png";
 import tictactoe from "../../Assets/Projects/tictactoe.png";
 import blog from "../../Assets/Projects/blog.png";
 import movies from "../../Assets/Projects/movies.png";
+import major from "../../Assets/Projects/major.png";
 
 function Projects() {
   return (
@@ -73,6 +74,17 @@ function Projects() {
               description="A web page based on tic tac toe game, for learning and fun purpose, made with HTML,CSS and JS."
               ghLink="https://github.com/atultechd/tictactoe-naive"
               demoLink="https://atultechd.github.io/tictactoe-naive/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={major}
+              isBlog={false}
+              title="Arrhythmia detection"
+              description="This is my college major project on M.L about detection of Arrhythmia using ECG image of a person."
+              ghLink="https://github.com/atultechd/Arrhythmia_detection_using_ecg_image_data"
+              // demoLink=""
             />
           </Col>
         </Row>
